@@ -13,7 +13,7 @@ local atlas_key = 'LPB' -- Format: PREFIX_KEY
 local atlas_path = 'LuigisBalatro.png' -- Filename for the image in the asset folder
 local atlas_path_hc = nil -- Filename for the high-contrast version of the texture, if existing
 
-local suits = {'hearts','spades'} -- Which suits to replace
+local suits = {'hearts','spades','clubs','diamonds'} -- Which suits to replace
 local ranks = {'2', '3', '4', '5', '6', '7', '8', '9', '10', 'Jack', 'Queen', "King", "Ace",} -- Which ranks to replace
 
 local description = 'Luigi\'s Balatro' -- English-language description, also used as default
