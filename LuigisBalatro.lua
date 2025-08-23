@@ -1,12 +1,13 @@
 --- STEAMODDED HEADER
---- MOD_NAME: Luigi's Picture Balatro
+--- MOD_NAME: Luigi's Balatro
 --- MOD_ID: LuigisPictureBalatro
 --- PREFIX: LPB
---- MOD_AUTHOR: [Lenuilu]
+--- MOD_AUTHOR: [Lenuilu, V--R]
 --- MOD_DESCRIPTION: Balatro but Luigi has taken over Jimbo's domain! (Special thanks to Marie(maratby), marziks, and Fytos on the Balatro Discord Server for giving me ideas for the ranks and suits!)
 --- LOADER_VERSION_GEQ: 1.0.0
 --- VERSION: 1.0.0
 --- BADGE_COLOR: 81B622
+--- DEPENDENCIES: [malverk]
 
 local atlas_key = 'LPB' -- Format: PREFIX_KEY
 -- See end of file for notes
@@ -53,6 +54,32 @@ for _, suit in ipairs(suits) do
         posStyle = 'deck'
     }
 end
+
+AltTexture({
+    key = 'luigi-backs',
+    set = 'Back',
+    path = 'EnhancersLuigi.png',
+})
+
+AltTexture({
+    key = 'luigi-enhanced',
+    set = 'Enhanced',
+    path = 'EnhancersLuigi.png',
+})
+
+TexturePack {
+    key = 'cards',
+    textures = {
+        "LPB_luigi-backs", "LPB_luigi-enhanced",
+    },
+        loc_txt = {
+        name = "Luigi's Balatro",
+        text = {
+            "Changes the cards with",
+            "a Luigi's Casino style."
+        }
+    }
+}
 
 -- Notes:
 
