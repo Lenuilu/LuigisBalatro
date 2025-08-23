@@ -67,10 +67,22 @@ AltTexture({
     path = 'EnhancersLuigi.png',
 })
 
+AltTexture({
+    key = 'luigi-seal',
+    set = 'Seal',
+    path = 'EnhancersLuigi.png',
+})
+
+AltTexture({
+    key = 'luigi-2',
+    set = 'Seal',
+    path = 'EnhancersLuigi.png',
+})
+
 TexturePack {
     key = 'cards',
     textures = {
-        "LPB_luigi-backs", "LPB_luigi-enhanced",
+        "LPB_luigi-backs", "LPB_luigi-enhanced", "LPB_luigi-seal", "LPB_luigi-2",
     },
         loc_txt = {
         name = "Luigi's Balatro",
