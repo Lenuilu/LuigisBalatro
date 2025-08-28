@@ -1,0 +1,13 @@
+{
+	"id": "LuigisPictureBalatro",
+	"name": "Luigi's Balatro",
+	"display_name": "Luigi's Balatro",
+	"author": ["Lenuilu, V--R"],
+	"description": "Balatro but Luigi has taken over Jimbo's domain! (Special thanks to Marie(maratby), marziks, and Fytos on the Balatro Discord Server for giving me ideas for the ranks and suits!)",
+	"prefix": "LPB",
+	"main_file": "LuigisBalatro.lua",
+	"priority": 8,
+	"badge_colour": "81B622",
+	"version": "1.0.2",
+	"dependencies": ["malverk"],
+}
