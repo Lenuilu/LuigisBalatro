@@ -3,10 +3,10 @@ return {
 		quips = {
 		
 			-- Wins
-			LPB_luigiwin = {'Oh yeah.'},
+			LPB_luigiwin = {'YOU WIN'},
 		
 			-- Losses
-			LPB_luigiloss = {'Oh no.'},
+			LPB_luigiloss = {'TOO BAD'},
 		}
 	}
 }
